@@ -82,17 +82,3 @@ Sales data is provided in the project repository to download and use.
 Data visualized using Tableau, link for full story can be found [here](https://public.tableau.com/views/FinalTestDataScience/Story1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 
-## Experiments
-
-Applied different experiments of different models. As the data is unbalanced I took 2 approaches to upsample the data SMOTE and Random Over Sampler(unreliable as it probably will cause over fitting because it repets the data so the model will overfit)
-
-| Model                             |  Upsampling Method          | Accuracy  |
-| :--------                         | :-------                    | :-------  |
-| `K-Nearest Neighbour(KNN)`        | Random Over Sampler         | 78.54 %   |
-| `K-Nearest Neighbour(KNN)`        | SMOTE                       | 74.72 %   |
-| `Decision Tree`                   | Random Over Sampler         | 84.82 %   |
-| `Decision Tree`                   | SMOTE                       | 83.04 %   |
-| `Random Forest `                  | Random Over Sampler         | 81.92 %   |
-| `Random Forest`                   | SMOTE                       | 80.81 %   |
-| `XGBoosting `                     | Random Over Sampler         | 98.97 %   |
-| `XGBoosting`                      | SMOTE                       | 94.59 %   |
