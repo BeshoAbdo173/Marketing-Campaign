@@ -62,8 +62,8 @@ Applied different experiments of different models. As the data is unbalanced I t
 
 ### Python environment requirements
 
-```http
-  **pip install -r requirements.txt**
+```
+pip install -r requirements.txt
 ```
 
 ### Sales Data 
@@ -73,8 +73,8 @@ Sales data is provided in the project repository to download and use.
 
 ### Clone the repository
 
-```http
-  **`git clone https://github.com/username/repo.git`**
+```
+  `git clone https://github.com/username/repo.git`
 ```
 
 ### Results Visualizations
